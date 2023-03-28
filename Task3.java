@@ -2,17 +2,12 @@ public class Task3
 {
     public static int[] countPositivesSumNegatives(int[] input)
     {
-        int countPositive = 0;
-        int sumNegative = 0;
-
-        for (int i = 0; i < input.length; i++) {
-            if (input[i] > 0) {
-                countPositive++;
-            } else if (input[i] < 0) {
-                sumNegative += input[i];
-            }
+        if (input == null || input.length == 0) return new int[] {};
+        int count = 0,sum = 0;
+        for (int i : input) {
+            if (i > 0) count ++;
+            if (i < 0) sum += i;
         }
-
-        return new int[] {countPositive, sumNegative};
+        return new int[] {count,sum};
     }
 }
