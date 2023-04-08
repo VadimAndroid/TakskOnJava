@@ -12,3 +12,10 @@ public class Bio {
         return rna.toString();
     }
 }
+
+//alternative variation
+//public class Bio{
+//    public String dnaToRna(String dna){
+//        return dna.replace("T", "U");
+//    }
+//}
