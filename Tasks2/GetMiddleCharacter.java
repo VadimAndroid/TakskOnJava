@@ -1,3 +1,5 @@
+package Tasks2;
+
 public class GetMiddleCharacter {
   public static String getMiddleString(String originalString) {
     int length = originalString.length();

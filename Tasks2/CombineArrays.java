@@ -1,3 +1,5 @@
+package Tasks2;
+
 public class CombineArrays {
     public static int[] getCombinedArray(int[] firstArray, int[] secondArray) {
       int[] result = new int[firstArray.length + secondArray.length];

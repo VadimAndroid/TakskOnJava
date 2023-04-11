@@ -1,3 +1,5 @@
+package Tasks2;
+
 public class ConvertBooleans {
     public static String[] getStringArray(boolean[] values) {
       String[] result = new String[values.length];

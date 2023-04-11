@@ -1,3 +1,5 @@
+package Tasks2;
+
 public class Bio {
     public String dnaToRna(String dna) {
         StringBuilder rna = new StringBuilder();

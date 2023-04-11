@@ -1,3 +1,5 @@
+package Tasks2;
+
 public class RemoveOddChars {
     public static String removeOddChars(String originalString) {
       StringBuilder result = new StringBuilder();

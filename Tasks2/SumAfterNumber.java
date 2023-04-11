@@ -1,3 +1,5 @@
+package Tasks2;
+
 public class SumAfterNumber {
     public static int getSum(int[] values, int startValue) {
       int sum = 0;
