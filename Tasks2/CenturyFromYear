@@ -1,0 +1,11 @@
+public class CenturyFromYear {
+    public static void main(String[] args){
+        int year = 2023;
+        int century = DateUtils.getCentury(year);
+        System.out.println("The century of year " + year + " is " + century);        
+    }
+
+  public static int getCentury(int year) {
+    return year % 100 == 0 ? (year / 100) : (year / 100 + 1);
+  }
+}
