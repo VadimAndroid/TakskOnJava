@@ -1,3 +1,4 @@
+package Tasks2;
 public class summation {
 public static void main(String[] args){
     int a = 8;
@@ -6,6 +7,7 @@ public static void main(String[] args){
 }
 
     public static int sum(int n){
-        return  n*(n+1)/2;
+
+    return  n*(n+1)/2;
     }
 }
