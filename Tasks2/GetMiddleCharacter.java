@@ -1,6 +1,12 @@
 package Tasks2;
 
 public class GetMiddleCharacter {
+  public static void main(String[] args) {
+    String originalString = "Hello";
+    String middleString = getMiddleString(originalString);
+    System.out.println("The middle string is: " + middleString);
+}
+
   public static String getMiddleString(String originalString) {
     int length = originalString.length();
     if (length == 0) {
